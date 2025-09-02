@@ -1,0 +1,30 @@
+# Python仮想環境
+venv/
+ENV/
+env/
+.venv/
+
+# 環境変数・機密情報
+*.env
+
+# Pythonキャッシュ
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebookチェックポイント
+.ipynb_checkpoints/
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# ログ・一時ファイル
+*.log
+*.tmp
+
+# 大容量データセット（必要に応じて）
+movielens_dataset.json
+
+# Cursor IDE 設定ファイル
+.cursor/
